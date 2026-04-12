@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  app-prod:
+    container_name: huang_yirui_coding_assignment14
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '5575:80'
