@@ -7,18 +7,13 @@ This README documents the step-by-step workflow, including project setup, portfo
 
 # Table of Contents
 
-[Project Initialization]
-[Install and Configure Dependencies]
-[Build Portfolio Structure]
-[Testing Setup]
-[CI/CD Pipeline]
-[Dockerize the Project]
-[Project Documentation & Version Control]
-
 1. [Project Initialization](#project-initialization)
 2. [Install and Configure Dependencies](#install-and-configure-dependencies)
-3. [Build Component Library Structure](#build-component-library-structure)
-4. [Project Documentation & Version Control](#project-documentation--version-control)
+3. [Build Portfolio Structure](#build-portfolio-structure)
+4. [Testing Setup](#testing-setup)
+5. [CI/CD Pipeline](#CI/CD-Pipeline)
+6. [Dockerize the Project](#dockerize-the-project)
+7. [Project Documentation & Version Control](#project-documentation--version-control)
 
 ## Project Initialization
 
@@ -479,7 +474,7 @@ Open the `README.md` file in VS Code, write and update all operations from start
 2. Add a remote repository:
 
 ```bash
-git remote add origin https://github.com/Yirui-Huang227/huang_yirui_ui_garden.git
+git remote add origin https://github.com/Yirui-Huang227/huang_yirui_final_site
 ```
 
 3. Add all files and commit
