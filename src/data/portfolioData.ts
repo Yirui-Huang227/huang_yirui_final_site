@@ -28,9 +28,8 @@ export const projects: ProjectItem[] = [
     title: 'Winnipeg Parks Explorer',
     description:
       'A Ruby on Rails application that combines multiple datasets to display park information in Winnipeg, including search, associations, pagination, and mapping.',
-    image:
-      'https://placehold.co/600x400/2f6b3b/ffffff?text=Winnipeg+Parks+Explorer',
-    link: '#',
+    image: 'images/park_explorer_winnipeg.png',
+    link: 'https://github.com/Yirui-Huang227/park_explorer_winnipeg',
     techList: 'Rails, SQLite, Bootstrap, Kaminari, APIs',
     category: 'Rails',
   },
@@ -38,8 +37,8 @@ export const projects: ProjectItem[] = [
     title: 'Greenleaf Store',
     description:
       'A full-stack Rails e-commerce application with product browsing, category filtering, cart, checkout, Stripe payment integration, and admin management.',
-    image: 'https://placehold.co/600x400/3b7a57/ffffff?text=Greenleaf+Store',
-    link: '#',
+    image: 'images/greenleaf_store.png',
+    link: 'https://github.com/Yirui-Huang227/greenleaf_store',
     techList: 'Rails, Devise, ActiveAdmin, Stripe, Docker',
     category: 'E-commerce',
   },
@@ -47,8 +46,8 @@ export const projects: ProjectItem[] = [
     title: 'Tropical Plant Knowledge Hub',
     description:
       'A custom PHP CMS with CRUD, categories, comments, CAPTCHA, image upload, authentication, and paginated keyword search.',
-    image: 'https://placehold.co/600x400/4d8f5b/ffffff?text=Plant+CMS',
-    link: '#',
+    image: 'images/tropical_plant_hub.png',
+    link: 'https://github.com/Yirui-Huang227/tropical-plant-hub-cms',
     techList: 'PHP, MySQL, PDO, Bootstrap, JavaScript',
     category: 'CMS',
   },

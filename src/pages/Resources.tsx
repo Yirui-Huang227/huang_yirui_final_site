@@ -29,7 +29,9 @@ function Resources() {
           <Item key={resource.title}>
             <Img src={resource.image} alt={resource.title} />
             <Card title={resource.title} content={resource.summary} />
-            <Button label="Visit Resource" />
+            <a href={resource.link} target="_blank" rel="noopener noreferrer">
+              <Button label="Visit Resource" />
+            </a>
           </Item>
         ))}
       </Grid>

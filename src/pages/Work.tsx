@@ -85,7 +85,9 @@ function Work() {
               content={`${project.description} Technologies: ${project.techList}`}
             />
             <Row>
-              <Button label="View Project" />
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <Button label="View Project" />
+              </a>
               <Button label={project.category} disabled />
             </Row>
           </CardWrapper>
